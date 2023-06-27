@@ -1,4 +1,4 @@
-import createGlobalStyle from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
      html {
@@ -10,7 +10,11 @@ export const GlobalStyles = createGlobalStyle`
       };
 
       body{
+        max-width: 1248px;
+        margin: 100px auto;
+        padding: 16px;
         font-family:"Inter",sans-serif;
         color:${({ theme }) => theme.colors.black};
-      }
+        background-color: ${({ theme }) => theme.colors.whiteLilac};
+        }
 `;
