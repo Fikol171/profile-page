@@ -1,3 +1,4 @@
+import { LinkEnvelope } from "../../images/icon";
 import {
   Description,
   HeaderContainer,
@@ -5,7 +6,6 @@ import {
   HeaderImage,
   Title,
   PrevTitle,
-  Link,
 } from "./styled";
 
 export const Header = () => {
@@ -24,14 +24,13 @@ export const Header = () => {
           👨🏻‍💻💻 I’m a passionate Frontend Developer in love with React,currently
           looking for new job opportunities.
         </Description>
-        <Link
+        <a
           href="mailto://PawelOwiesek@gmail.com"
           title="PawelOwiesek@gmail.com"
           rel="noopener noreferrer"
         >
-          <svg />
-          Hire Me
-        </Link>
+          <LinkEnvelope />
+        </a>
       </HeaderContent>
     </HeaderContainer>
   );

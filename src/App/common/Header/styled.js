@@ -45,10 +45,4 @@ export const Description = styled.p`
   margin: 35px 0 32px 0;
 `;
 
-export const Link = styled.a`
-  display: inline-flex;
-  padding: 12px 16px;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-`;
+export const Link = styled.a``;
