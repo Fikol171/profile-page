@@ -1,11 +1,7 @@
-import { Header } from "./common/Header";
+import MyPage from "./MyPage/MyPage";
 
 function App() {
-  return (
-    <div>
-      <Header />
-    </div>
-  );
+  return <MyPage />;
 }
 
 export default App;

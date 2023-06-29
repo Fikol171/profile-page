@@ -14,7 +14,7 @@ export const GlobalStyles = createGlobalStyle`
         margin: 100px auto;
         padding: 16px;
         font-family:"Inter",sans-serif;
-        color:${({ theme }) => theme.colors.black};
-        background-color: ${({ theme }) => theme.colors.whiteLilac};
+        color:${({ theme }) => theme.basic.mainText};
+        background-color: ${({ theme }) => theme.basic.background};
         }
 `;

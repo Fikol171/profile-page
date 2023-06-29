@@ -27,7 +27,7 @@ export const PrevTitle = styled.span`
   font-weight: 700;
   line-height: 1.3;
   text-transform: uppercase;
-  color: ${({ theme }) => theme.colors.slateGray};
+  color: ${({ theme }) => theme.basic.bacground};
   margin-bottom: 12px;
 `;
 
@@ -45,4 +45,28 @@ export const Description = styled.p`
   margin: 35px 0 32px 0;
 `;
 
-export const Link = styled.a``;
+export const MailButton = styled.button`
+  display: inline-flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: ${({ theme }) => theme.buttons.background};
+  border-radius: 4px;
+  border: 1px solid ${({ theme }) => theme.buttons.background};
+`;
+
+export const Envelope = styled.img`
+  width: 24px;
+  height: 24px;
+`;
+
+export const Link = styled.a`
+  text-align: center;
+  font-size: 20.058px;
+  font-family: Inter;
+  font-weight: 600;
+  letter-spacing: 1.003px;
+  text-decoration-line: none;
+  color: ${({ theme }) => theme.buttons.mainText};
+`;
