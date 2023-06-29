@@ -5,6 +5,7 @@ import { darkTheme, lightTheme } from "../theme";
 import { GlobalStyles } from "../Global Styles";
 import { useSelector } from "react-redux";
 import { selectThemeState } from "../theme.Slice";
+
 const MyPage = () => {
   const isLightTheme = useSelector(selectThemeState);
 

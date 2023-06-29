@@ -29,5 +29,5 @@ export const ThemeText = styled.p`
   font-weight: 700;
   font-size: 12px;
   line-height: 15.6px;
-  color: ${({ theme }) => theme.basic.background};
+  color: ${({ theme }) => theme.basic.mainText};
 `;

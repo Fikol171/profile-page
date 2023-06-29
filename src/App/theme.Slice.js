@@ -8,8 +8,6 @@ const themeSlice = createSlice({
   reducers: {
     toggleTheme: (state) => {
       state.isTheme = !state.isTheme;
-      console.log("tlo sie zmienia");
-      console.log(state.isTheme);
     },
   },
 });
